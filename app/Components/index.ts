@@ -1,3 +1,3 @@
 import Navbar from "./Navbar";
-
-export { Navbar }
+import HeroSection from "./HeroSection";
+export { Navbar, HeroSection }
