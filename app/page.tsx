@@ -1,9 +1,10 @@
-import { HeroSection } from "./Components";
+import { HeroSection, FeaturedSection } from "./Components";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
       <HeroSection />
+      <FeaturedSection />
     </main>
   );
 }
