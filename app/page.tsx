@@ -4,6 +4,9 @@ import {
   FeaturedSection,
   WhyChooseUs,
   TestinomialCard,
+  UpcomingWebinars,
+  Instructor,
+  Footer,
 } from "./Components";
 
 export default function Home() {
@@ -13,6 +16,9 @@ export default function Home() {
       <FeaturedSection />
       <WhyChooseUs />
       <TestinomialCard />
+      <UpcomingWebinars />
+      <Instructor />
+      <Footer />
     </main>
   );
 }
